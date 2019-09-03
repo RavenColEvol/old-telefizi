@@ -2,10 +2,12 @@ import React from 'react'
 import Input from './Input/Input'
 import styled from 'styled-components';
 
+
 const Button = styled.button`
-    width:25rem;
+    width:95%;
     background:var(--color-primary-1);
     border:0;
+    font-weight:500;
     padding:8px 10px;
     color:var(--color-white-1);
     border-radius:5px;
@@ -16,6 +18,9 @@ const Button = styled.button`
         transform:translateY(-1px);
     }
     @media ${props=>props.theme.media.medium}{
+        width:85vw;
+    }
+    @media ${props=>props.theme.media.small}{
         width:90vw;
     }
 `
@@ -29,7 +34,9 @@ export default props=>(
         <Input type='tel' placeholder='+91 96543 15552' label='Phone no. :' required/>
         <Input type='text' placeholder='' label='Address :' required/>
         <Input type='text' placeholder='' label='Subject :' required/>
-        <Button>Send It</Button>
+        <Button>Send It
+        
+        </Button>
         </form>
     </div>
 )

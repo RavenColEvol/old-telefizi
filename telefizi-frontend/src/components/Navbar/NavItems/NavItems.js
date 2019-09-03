@@ -17,10 +17,11 @@ const NavItems = ({clicked}) => {
     return (
         <BrowserRouter>
             <NavItemsWrapper>
-                <NavItem click={clicked} to="#">Home</NavItem>
-                <NavItem click={clicked} to="#certifications">about us</NavItem>
-                <NavItem click={clicked} to="#bookonline">Book online</NavItem>
-                <NavItem click={clicked} to="#contact">contact</NavItem>            
+                <NavItem click={clicked} to="/">Home</NavItem>
+                <NavItem click={clicked} to="/#certifications">about us</NavItem>
+                <NavItem click={clicked} to="/#bookonline">Book online</NavItem>
+                <NavItem click={clicked} to="/#contact">contact</NavItem>
+                <NavItem click={clicked} to="/login">Login</NavItem>             
             </NavItemsWrapper>
         </BrowserRouter>
     )

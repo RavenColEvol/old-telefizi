@@ -1,0 +1,143 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M704 640c-64 64-64 128-128 128s-128-64-192-128-128-128-128-192 64-64 128-128-128-256-192-256-192 192-192 192c0 128 131.5 387.5 256 512s384 256 512 256c0 0 192-128 192-192s-192-256-256-192z"
+        ],
+        "tags": [
+          "phone",
+          "telephone",
+          "contact",
+          "support",
+          "call"
+        ],
+        "defaultCode": 59714,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "phone, telephone",
+        "name": "phone",
+        "order": 5,
+        "id": 67,
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 66
+    },
+    {
+      "icon": {
+        "paths": [
+          "M544.010 1024.004c-2.296 0-4.622-0.25-6.94-0.764-14.648-3.25-25.070-16.238-25.070-31.24v-480h-480c-15.002 0-27.992-10.422-31.24-25.070-3.25-14.646 4.114-29.584 17.708-35.928l960-448c12.196-5.688 26.644-3.144 36.16 6.372 9.516 9.514 12.060 23.966 6.372 36.16l-448 960c-5.342 11.44-16.772 18.47-28.99 18.47zM176.242 448h367.758c17.674 0 32 14.328 32 32v367.758l349.79-749.546-749.548 349.788z"
+        ],
+        "tags": [
+          "compass",
+          "direction",
+          "location"
+        ],
+        "defaultCode": 59721,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "compass, direction",
+        "name": "compass",
+        "order": 2,
+        "id": 74,
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 73
+    },
+    {
+      "icon": {
+        "paths": [
+          "M225 448c123.712 0 224 100.29 224 224 0 123.712-100.288 224-224 224s-224-100.288-224-224l-1-32c0-247.424 200.576-448 448-448v128c-85.474 0-165.834 33.286-226.274 93.726-11.634 11.636-22.252 24.016-31.83 37.020 11.438-1.8 23.16-2.746 35.104-2.746zM801 448c123.71 0 224 100.29 224 224 0 123.712-100.29 224-224 224s-224-100.288-224-224l-1-32c0-247.424 200.576-448 448-448v128c-85.474 0-165.834 33.286-226.274 93.726-11.636 11.636-22.254 24.016-31.832 37.020 11.44-1.8 23.16-2.746 35.106-2.746z"
+        ],
+        "tags": [
+          "quotes-left",
+          "ldquo"
+        ],
+        "defaultCode": 59767,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "quotes-left, ldquo",
+        "name": "quotes-left",
+        "order": 3,
+        "id": 120,
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 119
+    },
+    {
+      "icon": {
+        "paths": [
+          "M800 640c-123.712 0-224-100.29-224-224 0-123.712 100.288-224 224-224s224 100.288 224 224l1 32c0 247.424-200.576 448-448 448v-128c85.474 0 165.834-33.286 226.274-93.726 11.634-11.636 22.252-24.016 31.83-37.020-11.438 1.8-23.16 2.746-35.104 2.746zM224 640c-123.71 0-224-100.29-224-224 0-123.712 100.29-224 224-224s224 100.288 224 224l1 32c0 247.424-200.576 448-448 448v-128c85.474 0 165.834-33.286 226.274-93.726 11.636-11.636 22.254-24.016 31.832-37.020-11.44 1.8-23.16 2.746-35.106 2.746z"
+        ],
+        "tags": [
+          "quotes-right",
+          "rdquo"
+        ],
+        "defaultCode": 59768,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "quotes-right, rdquo",
+        "name": "quotes-right",
+        "order": 4,
+        "id": 121,
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 120
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": false,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

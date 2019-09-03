@@ -1,10 +1,14 @@
 import {createGlobalStyle} from 'styled-components'
-import circular from '../assest/circular.otf'
+import product from '../assest/ProductSans-Regular.woff'
 export default createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500&display=swap');
     @font-face {
-        font-family:'Circular std';
-        src: url(${circular});
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: normal;
+        src:  url(${product}) format('woff');
     }
+    
     *{
         margin:0;
         padding:0;
@@ -26,13 +30,15 @@ export default createGlobalStyle`
     }
 
     body{
-        font-family:'Circular std',sans-serif;
+        font-family:'Product Sans',sans-serif;
         font-size:62.5%;
         font-weight:400;
         line-height:1.6;
         background:var(--color-white-1);
         color:var(--color-dark-1);
         overflow-x:hidden;
+        backface-visibility: hidden;
+        -webkit-font-smoothing: subpixel-antialiased;
     }
 
     @media ${props=>props.theme.media.smallest}{

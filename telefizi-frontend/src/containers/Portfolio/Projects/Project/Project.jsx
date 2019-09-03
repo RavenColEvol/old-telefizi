@@ -10,6 +10,7 @@ const ProjectWrapper = styled.div`
     flex-direction:${props=>props.reverse?'row-reverse':'row'}
     margin-top:3rem;
     padding:0 9rem;
+    
     @media ${props=>props.theme.media.medium}
     {
         flex-direction:column;
@@ -53,6 +54,7 @@ const Stack = styled.p`
     margin-bottom:1rem;
 `
 const Center = styled.div`
+
     text-align:center;
     margin:5rem 0;
     @media ${props=>props.theme.media.medium}

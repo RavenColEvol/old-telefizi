@@ -12,7 +12,7 @@ const NavWrapper = styled.div`
     width:100%;
     height:4rem;
     z-index:10;
-    background:var(--color-white-1);
+    background:rgba(255,255,255,0.9);
     box-shadow:0 3px 2rem rgba(0,0,0,.05);
     padding:0 7rem;
     display:flex;

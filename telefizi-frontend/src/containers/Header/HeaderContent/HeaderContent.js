@@ -7,15 +7,16 @@ const ContentWrapper = styled.div`
     display:flex;
     align-items:center;
     h1{
-        font-weight:200;
-        font-size:2.2rem;
+        font-weight:400;
+        font-size:2.5rem;
         margin-bottom:.8rem;
         animation:slideRight .2s ease-in;
         color:var(--color-dark-1);
     }
     h3{
         font-size:0.9rem;
-        font-weight:200;
+        font-weight:400;
+        font-family:maven,sans-serif;
         margin-bottom:calc(1.6rem);
         opacity:0;
         animation:slideUp .2s .2s ease-in ;
@@ -28,6 +29,22 @@ const ContentWrapper = styled.div`
     @media ${props=>props.theme.media.medium}
     {
         padding-left:2rem;
+        padding-right:1rem;
+        h1{
+            font-weight:200;
+            font-size:1.9rem;
+            margin-bottom:.8rem;
+            
+        }
+        h3{
+            font-size:.78rem;
+            font-weight:200;
+            margin-bottom:calc(1.6rem*2);
+        }
+    }
+    @media ${props=>props.theme.media.large}
+    {
+        padding-left:1.5rem;
         padding-right:1rem;
         h1{
             font-weight:200;
@@ -103,7 +120,9 @@ const HeaderContent = () => {
                     <h3>
                     Telefizi's affordable doctor appointments are revolutionizing the patient experience. Bringing the doctor to your doorstep.
                     </h3>
-                    <Button href="#about">Book Now</Button>
+                    <Button href="#about">
+                    Book Now 
+                    </Button>
             </div>
             <LogoAside/>
         </ContentWrapper>

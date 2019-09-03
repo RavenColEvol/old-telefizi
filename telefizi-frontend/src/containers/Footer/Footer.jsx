@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import Copywright from './Copywright/Copywright';
 
 const Container = styled.div`
-    min-height:80vh;
+    min-height:70vh;
     padding-top:3rem;
 `
 const FooterContainer = styled.div`

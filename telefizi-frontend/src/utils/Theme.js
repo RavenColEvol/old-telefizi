@@ -1,7 +1,7 @@
 const Theme = {
     colors:{
-        "color-primary-1":"#bb5656",
-        "color-primary-2":"#bb5656",
+        "color-primary-1":"#c86868",
+        "color-primary-2":"#b85858",
         "color-primary-3":"#bb5656",
         "color-dark-1":"#112e41",
         "color-dark-2":"#646464",

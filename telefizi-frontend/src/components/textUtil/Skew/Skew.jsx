@@ -3,28 +3,31 @@ import styled from 'styled-components'
 
 const P = styled.p`
     display:inline-block;
+    font-family:'Product sans',sans-serif;
     font-size:1.2rem;
-    font-weight:600;
+    
     position:relative;
-    color:var(--color-white-1);
-    @media ${props=>props.theme.media.small}
+    color:var(--color-dark-1);
+    padding:0 .5rem;
+    @media ${props=>props.theme.media.large}
     {
-        font-size:.8rem;
+        &{
+        font-size:1.1rem;
+        }
     }
     @media ${props=>props.theme.media.medium}
     {
+        &{
+        font-size:1.1rem;
+        }
+    }
+    @media ${props=>props.theme.media.small}
+    {
+        &{
         font-size:1rem;
+        }
     }
-    &:after{
-        content:'';
-        position:absolute;
-        top:0;
-        left:0;
-        height:100%;
-        width:100%;
-        z-index:-1;
-        background:var(--color-primary-1);
-    }
+    
 `
 
 const Skew = ({children}) => {

@@ -9,14 +9,22 @@ import doctor3 from '../../assest/image/Anil.webp'
 import doctor4 from '../../assest/image/Girish.webp'
 
 const DoctorContainer = styled.div`
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
     min-height:80vh;
-    @media ${props=>props.theme.media.small}
+    grid-auto-flow:row;
+    @media ${props=>props.theme.media.medium}
     {
         margin-top:2rem;
-        flex-direction:column;
+        grid-template-columns:1fr 1fr;
+    }
+    @media ${props=>props.theme.media.small}
+    {
+        &{
+        margin-top:2rem;
+        grid-template-columns:1fr;
+        grid-template-rows:repeat(4,1fr);    
+        }
     }
 `
 

@@ -15,6 +15,11 @@ const ContactWrapper = styled.div`
     padding:3rem 5rem;
     @media  ${props=>props.theme.media.medium}{
         padding:2rem 1rem;
+        width:90vw;
+    }
+    @media  ${props=>props.theme.media.small}{
+        padding:2rem 0rem;
+        width:90vw;
     }
 `
 

@@ -6,7 +6,7 @@ const Input = styled.input`
     padding:8px 10px;
     display:block;
     border-radius:5px;
-    width:25rem;
+    width:95%;
     margin-bottom:1rem;
     &:focus{
         border:2px solid #eacccc;
@@ -16,13 +16,16 @@ const Input = styled.input`
         border:2px solid #c87777;
     }
     @media ${props=>props.theme.media.medium}{
-        width:90vw;
+        width:100%;
+    }
+    @media ${props=>props.theme.media.small}{
+        width:100%;
     }
 `
 export default props =>(
     <>
         <div>
-            <label>{props.label}</label><br/>
+            <label style={{fontSize:'.85rem'}}>{props.label}</label><br/>
             <Input type={props.type} placeholder={props.placeholder}></Input>
         </div>
     </>
